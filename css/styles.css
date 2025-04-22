@@ -13,7 +13,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 }
 
 /* scroll snap */
@@ -38,7 +38,6 @@ body {
     background-image: linear-gradient(to top, var(--obsuro ) 0%, var(--blanco)100%);
     /* para difuminar*/
 }
-
 
 .contenedor {
     max-width: 120rem;
@@ -99,7 +98,7 @@ h3 {
     text-align: center;
 }
 
-p1 {
+p {
     font-weight:bold ;
     color: #ffffff;
     padding: 5rem;
@@ -238,6 +237,8 @@ a {
 .servicio p {
     line-height: 2;
     text-align: center;
+    color: #000;
+    font-weight: normal;
 }
 
 .servicio .iconos {
@@ -248,6 +249,12 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#fb-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px; /* espacio visual extra */
 }
 
 /** footer **/
