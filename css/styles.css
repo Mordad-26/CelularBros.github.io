@@ -195,8 +195,14 @@ a {
 /* hero */
 
 @media (max-width: 600px) {
-    .contenidohero h2, .contenidohero h3{
-        font-size: 1.5rem;
+    .contenidohero h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .contenidohero h3{
+        font-size: 1.2rem;
         text-align: center;
         padding: 0 1rem;
     }
