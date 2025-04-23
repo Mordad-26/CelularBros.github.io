@@ -34,6 +34,22 @@ body {
     background-image: linear-gradient(to top, var(--obsuro ) 0%, var(--blanco)100%);/* para difuminar*/
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #ffffff, #eeeeee);
+    padding: 20px;
+    gap: 15px;
+  }
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 80%;
+    object-fit: cover;
+  }
+
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
@@ -217,8 +233,13 @@ a {
     justify-content: center;
 }
 
-.contenidohero h2,
 .contenidohero p {
+    color: var(--blanco);
+    align-content: center;
+}
+
+.contenidohero h2{
+    margin-top: 10rem;
     color: var(--blanco);
     align-content: center;
 }
