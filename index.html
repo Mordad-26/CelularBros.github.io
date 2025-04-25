@@ -13,13 +13,13 @@
 <body>
   
     <header>
-        <img src="logo.jpg" alt="Logo" class="logo">
+        <img src="img/logo.jpg" alt="Logo" class="logo">
         <h1 class="titulo"> Celular Bros<span> Express</span></h1>
     </header>
 
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v22.0"></script>
-    
+
     <div class="nav-bg">    
     <nav class="navegacion-principal  contenedor">
             <a href="https://wa.me/+528714529135">WhatsApp</a>  
@@ -134,19 +134,64 @@
                 <p> Centro de carga Batería  <br> Lógicas Tapas </p>
             </section>
 
-        </div> <!--fin de clase servicios-->
+        </div> 
+        <!--fin de servicios-->
+        <h2>Nuestros Trabajos</h2>
+        <div class="slider">
+            <!--lista de imagenes-->
+            <div class="list">
+                <div class="item">
+                    <img src="img/celular4.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/celular3.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/celular2.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/celular.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/escritorio.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/kisco.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/lucero.jpg">
+                </div>
+            </div>
+            <!--Botones-->
+            <div class="botones">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!--Puntos-->
+            <ul class="puntos">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--fin de carrousel-->
 
         <h2>Comentarios</h2>
         <div id="fb-wrapper">
             <div class="fb-comments" data-href="https://mordad-26.github.io/CelularBros.github.io/" data-width="100%" data-numposts="5"></div>
         </div>
-        
+        <!--fin de comentarios-->
     </main>
     
     <footer class="footer">
         <p>Todos los derechos reservados</p>
     </footer>
-
+    
+    <script src="carousel.js"></script>
 
 </body>
 </html>
